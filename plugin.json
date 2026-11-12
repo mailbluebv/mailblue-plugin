@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mailblue",
+  "version": "0.0.1",
+  "description": "Marketing automation, CRM, and email marketing powered by MailBlue. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights from your AI agent.",
+  "author": {
+    "name": "MailBlue",
+    "email": "info@mailblue.nl",
+    "url": "https://www.mailblue.io"
+  },
+  "homepage": "https://www.mailblue.io",
+  "repository": "https://gitlab.com/mailbluebv/mailblue-mcp",
+  "license": "MIT",
+  "keywords": ["marketing", "automation", "crm", "email", "campaigns", "deals", "contacts"]
+}

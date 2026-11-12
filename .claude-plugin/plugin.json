@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mailblue",
+  "displayName": "MailBlue",
+  "version": "0.0.1",
+  "description": "Marketing automation, CRM, and email marketing powered by MailBlue. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights — all from Claude.",
+  "author": {
+    "name": "MailBlue",
+    "email": "info@mailblue.nl",
+    "url": "https://www.mailblue.io"
+  },
+  "homepage": "https://www.mailblue.io",
+  "repository": "https://gitlab.com/mailbluebv/mailblue-mcp",
+  "license": "MIT",
+  "keywords": ["marketing", "automation", "crm", "email", "campaigns", "deals", "contacts"],
+  "userConfig": {
+    "server_url": {
+      "title": "MailBlue MCP Server URL",
+      "type": "string",
+      "description": "Your MailBlue MCP Server URL. Find this in your MailBlue account under Settings > Developer > MCP. It looks like: https://yoursubdomain.activehosted.com/api/agents/mcp/http",
+      "sensitive": false
+    }
+  }
+}
