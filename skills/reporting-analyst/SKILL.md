@@ -3,7 +3,7 @@ name: reporting-analyst
 description: Analyze campaign performance, automation results, email metrics, and engagement trends. Use when the user asks about how campaigns performed, wants reports, or asks about marketing analytics.
 license: MIT
 compatibility: Requires a connection to your MailBlue account's MCP server (MailBlue > Settings > Developer > MCP).
-allowed-tools: Read, Grep, Glob, mcp__plugin_mailblue_activecampaign__list_campaigns, mcp__plugin_mailblue_activecampaign__get_campaign, mcp__plugin_mailblue_activecampaign__get_campaign_links, mcp__plugin_mailblue_activecampaign__list_email_activities, mcp__plugin_mailblue_activecampaign__list_contacts, mcp__plugin_mailblue_activecampaign__list_automations, mcp__plugin_mailblue_activecampaign__list_contact_automations, mcp__plugin_mailblue_activecampaign__get_contact_automation, mcp__plugin_mailblue_activecampaign__list_deals, mcp__plugin_mailblue_activecampaign__get_deal, mcp__plugin_mailblue_activecampaign__list_deal_activities, mcp__plugin_mailblue_activecampaign__list_deal_pipelines, mcp__plugin_mailblue_activecampaign__list_deal_stages
+allowed-tools: Read, Grep, Glob, LS
 ---
 
 # Reporting Analyst
