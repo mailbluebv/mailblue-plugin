@@ -3,7 +3,7 @@ name: deals-crm
 description: Manage the sales CRM in MailBlue — deals, pipelines, stages, deal notes, owner assignment, and custom objects. Use when the user wants to create or update deals, build or reorganize a pipeline, move deals between stages, reassign deal owners, add notes, or model custom data with custom objects.
 license: MIT
 compatibility: Requires a connection to your MailBlue account's MCP server (MailBlue > Settings > Developer > MCP).
-allowed-tools: Read, Grep, Glob, mcp__activecampaign__list_deals, mcp__activecampaign__get_deal, mcp__activecampaign__list_deal_activities, mcp__activecampaign__list_deal_pipelines, mcp__activecampaign__get_deal_pipeline, mcp__activecampaign__list_deal_stages, mcp__activecampaign__get_deal_stage, mcp__activecampaign__list_custom_object_schemas, mcp__activecampaign__list_contacts, mcp__activecampaign__get_contact, mcp__activecampaign__list_groups
+allowed-tools: Read, Grep, Glob, mcp__plugin_mailblue_activecampaign__list_deals, mcp__plugin_mailblue_activecampaign__get_deal, mcp__plugin_mailblue_activecampaign__list_deal_activities, mcp__plugin_mailblue_activecampaign__list_deal_pipelines, mcp__plugin_mailblue_activecampaign__get_deal_pipeline, mcp__plugin_mailblue_activecampaign__list_deal_stages, mcp__plugin_mailblue_activecampaign__get_deal_stage, mcp__plugin_mailblue_activecampaign__list_custom_object_schemas, mcp__plugin_mailblue_activecampaign__list_contacts, mcp__plugin_mailblue_activecampaign__get_contact, mcp__plugin_mailblue_activecampaign__list_groups
 ---
 
 # Deals & CRM

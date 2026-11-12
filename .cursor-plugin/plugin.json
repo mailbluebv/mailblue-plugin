@@ -3,7 +3,7 @@
   "displayName": "MailBlue",
   "version": "0.0.1",
   "description": "Marketing automation, CRM, and email marketing powered by MailBlue. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights from your AI agent.",
-  "logo": "./assets/mailblue-icon.svg",
+  "logo": "./assets/icon.png",
   "mcpServers": "./mcp.json",
   "author": {
     "name": "MailBlue",
@@ -11,7 +11,7 @@
     "url": "https://www.mailblue.io"
   },
   "homepage": "https://www.mailblue.io",
-  "repository": "https://gitlab.com/mailbluebv/mailblue-mcp",
+  "repository": "https://github.com/mailbluebv/mailblue-plugin",
   "license": "MIT",
   "keywords": [
     "marketing",

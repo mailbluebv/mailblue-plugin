@@ -9,7 +9,7 @@
     "url": "https://www.mailblue.io"
   },
   "homepage": "https://www.mailblue.io",
-  "repository": "https://gitlab.com/mailbluebv/mailblue-mcp",
+  "repository": "https://github.com/mailbluebv/mailblue-plugin",
   "license": "MIT",
   "keywords": ["marketing", "automation", "crm", "email", "campaigns", "deals", "contacts"]
 }

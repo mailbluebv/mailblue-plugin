@@ -3,7 +3,7 @@ name: campaign-strategist
 description: Plan, generate, edit, and troubleshoot email campaigns. Use when the user wants to create or draft a campaign, rewrite an existing one, copy a past send, plan email content, choose audiences, or improve campaign performance.
 license: MIT
 compatibility: Requires a connection to your MailBlue account's MCP server (MailBlue > Settings > Developer > MCP).
-allowed-tools: Read, Grep, Glob, mcp__activecampaign__list_campaigns, mcp__activecampaign__get_campaign, mcp__activecampaign__get_campaign_links, mcp__activecampaign__list_contacts, mcp__activecampaign__get_contact, mcp__activecampaign__list_lists, mcp__activecampaign__list_tags, mcp__activecampaign__list_contact_custom_fields, mcp__activecampaign__list_contact_field_values, mcp__activecampaign__list_email_activities, mcp__activecampaign__list_automations, mcp__activecampaign__list_contact_automations, mcp__activecampaign__generate_campaign, mcp__activecampaign__poll_campaign_generation_status, mcp__activecampaign__edit_campaign, mcp__activecampaign__copy_campaign, mcp__activecampaign__update_campaign, mcp__activecampaign__get_campaign_messages, mcp__activecampaign__update_campaign_message, mcp__activecampaign__list_brand_kits, mcp__activecampaign__list_campaign_templates, mcp__activecampaign__search_content_manager_images
+allowed-tools: Read, Grep, Glob, mcp__plugin_mailblue_activecampaign__list_campaigns, mcp__plugin_mailblue_activecampaign__get_campaign, mcp__plugin_mailblue_activecampaign__get_campaign_links, mcp__plugin_mailblue_activecampaign__list_contacts, mcp__plugin_mailblue_activecampaign__get_contact, mcp__plugin_mailblue_activecampaign__list_lists, mcp__plugin_mailblue_activecampaign__list_tags, mcp__plugin_mailblue_activecampaign__list_contact_custom_fields, mcp__plugin_mailblue_activecampaign__list_contact_field_values, mcp__plugin_mailblue_activecampaign__list_email_activities, mcp__plugin_mailblue_activecampaign__list_automations, mcp__plugin_mailblue_activecampaign__list_contact_automations, mcp__plugin_mailblue_activecampaign__generate_campaign, mcp__plugin_mailblue_activecampaign__poll_campaign_generation_status, mcp__plugin_mailblue_activecampaign__edit_campaign, mcp__plugin_mailblue_activecampaign__copy_campaign, mcp__plugin_mailblue_activecampaign__update_campaign, mcp__plugin_mailblue_activecampaign__get_campaign_messages, mcp__plugin_mailblue_activecampaign__update_campaign_message, mcp__plugin_mailblue_activecampaign__list_brand_kits, mcp__plugin_mailblue_activecampaign__list_campaign_templates, mcp__plugin_mailblue_activecampaign__search_content_manager_images
 ---
 
 # Campaign Strategist
@@ -23,7 +23,7 @@ Activate when the user:
 
 ## Available tools
 
-You have access to these MailBlue tools via the `activecampaign` MCP server:
+You have access to these MailBlue tools via the plugin MCP server (`mcp__plugin_mailblue_activecampaign__*`):
 
 ### Campaign management
 - `list_campaigns` — List existing campaigns with filters for type and status. Use this to understand what the user has sent before and what's working.

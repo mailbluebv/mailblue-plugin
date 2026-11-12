@@ -3,7 +3,7 @@ name: automation-builder
 description: Design, troubleshoot, and optimize marketing automations. Use when the user wants to build workflows, set up triggers, create drip sequences, or debug why an automation isn't working.
 license: MIT
 compatibility: Requires a connection to your MailBlue account's MCP server (MailBlue > Settings > Developer > MCP).
-allowed-tools: Read, Grep, Glob, mcp__activecampaign__list_automations, mcp__activecampaign__list_contact_automations, mcp__activecampaign__get_contact_automation, mcp__activecampaign__list_contacts, mcp__activecampaign__list_tags, mcp__activecampaign__list_lists, mcp__activecampaign__list_contact_custom_fields, mcp__activecampaign__list_contact_field_values, mcp__activecampaign__list_campaigns
+allowed-tools: Read, Grep, Glob, mcp__plugin_mailblue_activecampaign__list_automations, mcp__plugin_mailblue_activecampaign__list_contact_automations, mcp__plugin_mailblue_activecampaign__get_contact_automation, mcp__plugin_mailblue_activecampaign__list_contacts, mcp__plugin_mailblue_activecampaign__list_tags, mcp__plugin_mailblue_activecampaign__list_lists, mcp__plugin_mailblue_activecampaign__list_contact_custom_fields, mcp__plugin_mailblue_activecampaign__list_contact_field_values, mcp__plugin_mailblue_activecampaign__list_campaigns
 ---
 
 # Automation Builder

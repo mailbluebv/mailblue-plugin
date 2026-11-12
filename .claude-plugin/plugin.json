@@ -14,13 +14,5 @@
   "repository": "https://github.com/mailbluebv/mailblue-plugin",
   "privacyPolicyUrl": "https://mailblue.io/en/legal/privacy-policy/",
   "license": "MIT",
-  "keywords": ["marketing", "automation", "crm", "email", "campaigns", "deals", "contacts"],
-  "userConfig": {
-    "server_url": {
-      "title": "MailBlue MCP Server URL",
-      "type": "string",
-      "description": "Your MailBlue MCP Server URL. Find this in your MailBlue account under Settings > Developer > MCP. It looks like: https://yoursubdomain.activehosted.com/api/agents/mcp/http",
-      "sensitive": false
-    }
-  }
+  "keywords": ["marketing", "automation", "crm", "email", "campaigns", "deals", "contacts"]
 }

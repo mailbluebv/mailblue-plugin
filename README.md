@@ -69,7 +69,7 @@ This repository follows the [Agent Plugins specification v1.0.0](https://agent-p
 | `agents/` | Claude Code only | Subagents aren't part of the portable standard yet |
 | `.claude-plugin/`, `.mcp.json` | Claude Code only | Claude Code's native plugin manifest and MCP config |
 
-The portable `mcp.json` points at the shared MCP endpoint (`https://mcp.app-us1.com/http`); OAuth authorization links the connection to your account on first use. Claude Code uses its own `.mcp.json` and collects your account-specific MCP Server URL at install time. Clients that support Agent Skills but not the full plugin format can add the server manually (see [Setup](#setup)).
+The portable `mcp.json` and Claude Code's `.mcp.json` both point at the shared MCP endpoint (`https://mcp.app-us1.com/http`); OAuth authorization links the connection to your account on first use. Clients that support Agent Skills but not the full plugin format can add the server manually (see [Setup](#setup)).
 
 ---
 
@@ -99,9 +99,8 @@ Every change follows a **read → preview → confirm → execute → verify** f
 ### Claude Code / Claude Co-Work
 
 1. **Install** the MailBlue plugin.
-2. **Enter your MailBlue MCP Server URL** when prompted. Find it in your MailBlue account under **Settings > Developer > MCP**. It looks like `https://yoursubdomain.activehosted.com/api/agents/mcp/http`.
-3. **Authorize** Claude to access your MailBlue account (OAuth).
-4. **Start using it** — ask a question, run a command, or ask Claude to set something up.
+2. **Authorize** Claude to access your MailBlue account (OAuth) when prompted. The plugin connects to the shared MCP endpoint; no account URL to look up.
+3. **Start using it** — ask a question, run a command, or ask Claude to set something up.
 
 ### Agent Plugins-compatible clients
 
@@ -165,7 +164,7 @@ Reading your data is seamless. Anything that **changes** your account is always 
 
 - **What the plugin is.** Configuration only — skills, commands, agents, and an MCP connection. It contains no code of its own and stores none of your data.
 - **Where your data goes.** When you use the plugin, Claude calls the MCP server using your account URL and your authorization. Your MailBlue data flows between your account and Claude to answer your requests, governed by MailBlue's Terms of Service and [Privacy Policy](https://mailblue.io/en/legal/privacy-policy/) and Anthropic's terms for Claude.
-- **Authentication.** Access is via OAuth against your own MailBlue account. The plugin never asks for or stores API keys; the only setting it collects is your MCP Server URL.
+- **Authentication.** Access is via OAuth against your own MailBlue account. The plugin never asks for or stores API keys.
 - **Changes are gated.** Every write to your account is previewed for your confirmation and additionally gated by Claude's permission prompt.
 - **Scope.** The plugin can only do what the MCP server exposes and what your account permissions allow. It cannot reach other accounts or data outside your MailBlue account.
 
@@ -175,8 +174,7 @@ Reading your data is seamless. Anything that **changes** your account is always 
 
 1. **Campaigns and automations are guided, not built** — the plugin can read them and design new ones, but creating/sending campaigns and building automations is done in the MailBlue UI.
 2. **No aggregate metrics** — reports present records and counts; use MailBlue's native reporting for win rates, averages, and totals.
-3. **Per-account URL** — you enter your subdomain URL during setup.
-4. **No DNS verification** — the Deliverability Advisor guides authentication but can't read your DNS records directly.
+3. **No DNS verification** — the Deliverability Advisor guides authentication but can't read your DNS records directly.
 
 ---
 
