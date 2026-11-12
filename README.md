@@ -164,7 +164,7 @@ Reading your data is seamless. Anything that **changes** your account is always 
 ## Data Handling & Privacy
 
 - **What the plugin is.** Configuration only — skills, commands, agents, and an MCP connection. It contains no code of its own and stores none of your data.
-- **Where your data goes.** When you use the plugin, Claude calls the MCP server using your account URL and your authorization. Your MailBlue data flows between your account and Claude to answer your requests, governed by MailBlue's Terms of Service and Privacy Policy and Anthropic's terms for Claude.
+- **Where your data goes.** When you use the plugin, Claude calls the MCP server using your account URL and your authorization. Your MailBlue data flows between your account and Claude to answer your requests, governed by MailBlue's Terms of Service and [Privacy Policy](https://mailblue.io/en/legal/privacy-policy/) and Anthropic's terms for Claude.
 - **Authentication.** Access is via OAuth against your own MailBlue account. The plugin never asks for or stores API keys; the only setting it collects is your MCP Server URL.
 - **Changes are gated.** Every write to your account is previewed for your confirmation and additionally gated by Claude's permission prompt.
 - **Scope.** The plugin can only do what the MCP server exposes and what your account permissions allow. It cannot reach other accounts or data outside your MailBlue account.
@@ -184,4 +184,4 @@ Reading your data is seamless. Anything that **changes** your account is always 
 
 Questions or issues: `info@mailblue.nl`
 
-MailBlue — [mailblue.io](https://www.mailblue.io) (EN) · [mailblue.nl](https://www.mailblue.nl) (NL)
+MailBlue — [mailblue.io](https://www.mailblue.io) (EN) · [mailblue.nl](https://www.mailblue.nl) (NL) · [Privacy](https://mailblue.io/en/legal/privacy-policy/)

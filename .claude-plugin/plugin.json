@@ -4,13 +4,15 @@
   "displayName": "MailBlue",
   "version": "0.0.1",
   "description": "Marketing automation, CRM, and email marketing powered by MailBlue. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights — all from Claude.",
+  "icon": ".claude-plugin/icon.png",
   "author": {
     "name": "MailBlue",
     "email": "info@mailblue.nl",
     "url": "https://www.mailblue.io"
   },
   "homepage": "https://www.mailblue.io",
-  "repository": "https://gitlab.com/mailbluebv/mailblue-mcp",
+  "repository": "https://github.com/mailbluebv/mailblue-plugin",
+  "privacyPolicyUrl": "https://mailblue.io/en/legal/privacy-policy/",
   "license": "MIT",
   "keywords": ["marketing", "automation", "crm", "email", "campaigns", "deals", "contacts"],
   "userConfig": {
